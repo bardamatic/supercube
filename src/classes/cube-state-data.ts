@@ -162,13 +162,23 @@ export const SolvedColorState = [
 ]
 
 export const Cross = [
-    [...Edges[8], ...Edges[9], ...Edges[10], ...Edges[11]], // E9 E10 E11 E12  |  blue cross
-    [...Edges[0], ...Edges[4], ...Edges[7],  ...Edges[8] ], // E1 E5  E8  E9   |  yellow cross
-    [...Edges[3], ...Edges[6], ...Edges[7],  ...Edges[11]], // E4 E7  E8  E12  |  red cross
-    [...Edges[2], ...Edges[5], ...Edges[6],  ...Edges[10]], // E3 E6  E7  E11  |  white cross
-    [...Edges[1], ...Edges[4], ...Edges[5],  ...Edges[9] ], // E2 E5  E6  E10  |  pink cross
-    [...Edges[0], ...Edges[1], ...Edges[2],  ...Edges[3] ]  // E1 E2  E3  E4   |  green cross
+    [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6] ] // E10 E11 E12 C6 C7 |  blue first block
+    // [00, 01, 02, 09, 12, 29, 32, 36, 38, 39, 40, 41] // blue cross   -> faces of blue first block
+    // [...Edges[0], ...Edges[4], ...Edges[7],  ...Edges[8] ], // E1 E5  E8  E9   |  yellow cross
+    // [...Edges[3], ...Edges[6], ...Edges[7],  ...Edges[11]], // E4 E7  E8  E12  |  red cross
+    // [...Edges[2], ...Edges[5], ...Edges[6],  ...Edges[10]], // E3 E6  E7  E11  |  white cross
+    // [...Edges[1], ...Edges[4], ...Edges[5],  ...Edges[9] ], // E2 E5  E6  E10  |  pink cross
+    // [...Edges[0], ...Edges[1], ...Edges[2],  ...Edges[3] ]  // E1 E2  E3  E4   |  green cross
 ]
+
+// export const Cross = [
+//     [...Edges[8], ...Edges[9], ...Edges[10], ...Edges[11]], // E9 E10 E11 E12  |  blue cross
+//     [...Edges[0], ...Edges[4], ...Edges[7],  ...Edges[8] ], // E1 E5  E8  E9   |  yellow cross
+//     [...Edges[3], ...Edges[6], ...Edges[7],  ...Edges[11]], // E4 E7  E8  E12  |  red cross
+//     [...Edges[2], ...Edges[5], ...Edges[6],  ...Edges[10]], // E3 E6  E7  E11  |  white cross
+//     [...Edges[1], ...Edges[4], ...Edges[5],  ...Edges[9] ], // E2 E5  E6  E10  |  pink cross
+//     [...Edges[0], ...Edges[1], ...Edges[2],  ...Edges[3] ]  // E1 E2  E3  E4   |  green cross
+// ]
 
 export const F2L = [
     [
