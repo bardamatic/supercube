@@ -163,7 +163,8 @@ export const SolvedColorState = [
 
 export const Cross = [
     // [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6] ] // E10 E11 E12 C6 C7 |  blue first block
-    [0, 1, 2, 9, 12, 29, 32, 36, 38, 39, 40, 41] // blue cross   -> faces of blue first block
+    // [0, 1, 2, 9, 12, 29, 32, 36, 38, 39, 40, 41] // blue cross   -> faces of blue first block
+      [36, 37, 39] // blue cross   -> faces of blue first block
     // [...Edges[0], ...Edges[4], ...Edges[7],  ...Edges[8] ], // E1 E5  E8  E9   |  yellow cross
     // [...Edges[3], ...Edges[6], ...Edges[7],  ...Edges[11]], // E4 E7  E8  E12  |  red cross
     // [...Edges[2], ...Edges[5], ...Edges[6],  ...Edges[10]], // E3 E6  E7  E11  |  white cross
