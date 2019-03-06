@@ -48,7 +48,7 @@ export namespace Giiker {
         stepsHandler = onSteps
         batteryHandler = onBattery
 
-        const f = [{ namePrefix: 'GiC' }]
+        const f = [{ namePrefix: 'Gi' }]
         const s = [UUID.cubeService, UUID.configService]
 
         device = await navigator.bluetooth.requestDevice({ filters: f, optionalServices: s })
