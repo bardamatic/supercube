@@ -99,11 +99,11 @@ export default class CubeState {
 
     private setupCenters(): void {
         this.colorStateArray[4]  = ColorID.WHI
-        this.colorStateArray[13] = ColorID.WHI
-        this.colorStateArray[22] = ColorID.WHI
-        this.colorStateArray[31] = ColorID.WHI
-        this.colorStateArray[40] = ColorID.WHI
-        this.colorStateArray[49] = ColorID.WHI
+        this.colorStateArray[13] = ColorID.RED
+        this.colorStateArray[22] = ColorID.GRE
+        this.colorStateArray[31] = ColorID.PIN
+        this.colorStateArray[40] = ColorID.BLU
+        this.colorStateArray[49] = ColorID.YEL
     }
 
     private computeColorState() {
