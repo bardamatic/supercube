@@ -36,7 +36,7 @@ export const Events = {
     cfopF2l: 'cfop-f2l',
 
     // crossColor: string | ['B', 'Y', 'R', 'W', 'P', 'G']
-    cfopOll: 'cfor-oll',
+    cfopOll: 'cfop-oll',
 
     // solved: boolean | true if cube is solved after PLL; false if AUF required
     cfopPll: 'cfop-pll'
