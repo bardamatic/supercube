@@ -140,7 +140,7 @@ export const Edges = [
     [41, 12]
 ]
 
-export const SolvedColorState = [
+export const SolvedColorState = [ //Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
     ColorID.WHI, ColorID.WHI, ColorID.WHI,
     ColorID.WHI, ColorID.WHI, ColorID.WHI,
     ColorID.WHI, ColorID.WHI, ColorID.WHI,
