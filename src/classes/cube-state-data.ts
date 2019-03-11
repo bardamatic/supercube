@@ -165,21 +165,19 @@ export const Cross = [
     // [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6] ] // E10 E11 E12 C6 C7 |  blue first block
     // [0, 1, 2, 9, 12, 29, 32, 36, 37, 38, 39, 41] // blue cross   -> faces of blue first block
     // [19, 7, 5, 28, 3, 10, 37, 1]
-    // [36, 37, 38, 39, 41], // Blue FB - White
-    // [37, 38, 41, 43, 44], // Blue FB - Red (Orange)
-    // [39, 41, 42, 43, 44], // Blue FB - Yellow
-    // [36, 37, 39, 42, 43] // Blue FB  Pink (Red)
+    [36, 37, 38, 39, 41], // Blue FB - White
+    [37, 38, 41, 43, 44], // Blue FB - Red (Orange)
+    [39, 41, 42, 43, 44], // Blue FB - Yellow
+    [36, 37, 39, 42, 43] // Blue FB  Pink (Red)
     // [39, 31, 37, 1, 41, 12, 36, 2, 29, 38, 9, 0], // Blue FB - White
     // [37, 1, 43, 52, 41, 12, 38, 9, 0, 44, 15, 51], // Blue FB - Pink (Red)
     // [43, 52, 39, 32, 37, 1, 36, 2, 29, 42, 53, 35], // Blue FB - Red (Orange)
     // [32, 39, 43, 52, 41, 12, 35, 42, 53, 44, 15, 51] // Blue FB - Yellow
-    [0, 1, 2, 9, 12, 29, 31, 36, 37, 38, 39, 41], // Blue FB - White
 
-    [0, 1, 9, 12, 15, 37, 38, 41, 43, 44, 51, 52], // Blue FB - Pink (Red)
-
-    [1, 2, 29, 32, 35, 36, 37, 39, 42, 43, 52, 53], // Blue FB - Red (Orange)
-
-    [12, 15, 32, 35, 39, 41, 42, 43, 44, 51, 52, 53] // Blue FB - Yellow - double check these!
+    // [0, 1, 2, 9, 12, 29, 31, 36, 37, 38, 39, 41], // Blue FB - White
+    // [0, 1, 9, 12, 15, 37, 38, 41, 43, 44, 51, 52], // Blue FB - Pink (Red)
+    // [1, 2, 29, 32, 35, 36, 37, 39, 42, 43, 52, 53], // Blue FB - Red (Orange)
+    // [12, 15, 32, 35, 39, 41, 42, 43, 44, 51, 52, 53] // Blue FB - Yellow - double check these!
 
     // [7, 5, 3, 1] // White cross with random order and no match to center
       // [0, 1, 2, 4, 9, 12, 13, 22, 29, 31, 32, 36, 38, 39, 40, 41, 49 ] // blue cross   -> faces of blue first block
@@ -188,6 +186,11 @@ export const Cross = [
     // [...Edges[2], ...Edges[5], ...Edges[6],  ...Edges[10]], // E3 E6  E7  E11  |  white cross
     // [...Edges[1], ...Edges[4], ...Edges[5],  ...Edges[9] ], // E2 E5  E6  E10  |  pink cross
     // [...Edges[0], ...Edges[1], ...Edges[2],  ...Edges[3] ]  // E1 E2  E3  E4   |  green cross
+    // [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6]], // E9 E10 E11 E12  |  blue cross
+    // [...Edges[8], ...Edges[9], ...Edges[10], ...Corners[4], ...Corners[5]], // E9 E10 E11 E12  |  blue cross
+    // [...Edges[8], ...Edges[9], ...Edges[11], ...Corners[4], ...Corners[7]], // E9 E10 E11 E12  |  blue cross
+    // [...Edges[8], ...Edges[10], ...Edges[11], ...Corners[6], ...Corners[7]] // E9 E10 E11 E12  |  blue cross
+
 ]
 
 // export const Cross = [
