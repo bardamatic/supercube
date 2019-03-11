@@ -141,24 +141,24 @@ export const Edges = [
 ]
 
 export const SolvedColorState = [ //Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
-    ColorID.WHI, ColorID.WHI, ColorID.WHI,
-    ColorID.WHI, ColorID.WHI, ColorID.WHI,
-    ColorID.WHI, ColorID.WHI, ColorID.WHI,
-    ColorID.RED, ColorID.RED, ColorID.RED,
-    ColorID.RED, ColorID.RED, ColorID.RED,
-    ColorID.RED, ColorID.RED, ColorID.RED,
-    ColorID.GRE, ColorID.GRE, ColorID.GRE,
-    ColorID.GRE, ColorID.GRE, ColorID.GRE,
-    ColorID.GRE, ColorID.GRE, ColorID.GRE,
-    ColorID.PIN, ColorID.PIN, ColorID.PIN,
-    ColorID.PIN, ColorID.PIN, ColorID.PIN,
-    ColorID.PIN, ColorID.PIN, ColorID.PIN,
-    ColorID.BLU, ColorID.BLU, ColorID.BLU,
-    ColorID.BLU, ColorID.BLU, ColorID.BLU,
-    ColorID.BLU, ColorID.BLU, ColorID.BLU,
-    ColorID.YEL, ColorID.YEL, ColorID.YEL,
-    ColorID.YEL, ColorID.YEL, ColorID.YEL,
-    ColorID.YEL, ColorID.YEL, ColorID.YEL
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 0, 1, 2
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 3, 4, 5
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 6, 7, 8
+    ColorID.RED, ColorID.RED, ColorID.RED, // 9, 10 ,11
+    ColorID.RED, ColorID.RED, ColorID.RED, // 12, 13, 14
+    ColorID.RED, ColorID.RED, ColorID.RED, // 15, 16, 17
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 18, 19, 20
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 21, 22, 23
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 24, 25, 26
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 27, 28, 29
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 30, 31, 32
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 33, 34, 35
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 36, 37, 38
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 39, 40, 41
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 42, 43, 44
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 45, 46, 47
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 48, 49, 50
+    ColorID.YEL, ColorID.YEL, ColorID.YEL  // 51, 52, 53
 ]
 
 export const Cross = [
