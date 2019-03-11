@@ -140,7 +140,7 @@ export const Edges = [
     [41, 12]
 ]
 
-export const SolvedColorState = [ //Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
+export const SolvedColorState = [ // Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
     ColorID.WHI, ColorID.WHI, ColorID.WHI, // 0, 1, 2
     ColorID.WHI, ColorID.WHI, ColorID.WHI, // 3, 4, 5
     ColorID.WHI, ColorID.WHI, ColorID.WHI, // 6, 7, 8
@@ -161,14 +161,79 @@ export const SolvedColorState = [ //Create multiple arrays within this array or 
     ColorID.YEL, ColorID.YEL, ColorID.YEL  // 51, 52, 53
 ]
 
+export const FBSCSO = [ // Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
+    ColorID.PIN, ColorID.PIN, ColorID.WHI, // 0, 1, 2
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 3, 4, 5
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 6, 7, 8
+    ColorID.WHI, ColorID.RED, ColorID.RED, // 9, 10 ,11
+    ColorID.WHI, ColorID.RED, ColorID.RED, // 12, 13, 14
+    ColorID.WHI, ColorID.RED, ColorID.RED, // 15, 16, 17
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 18, 19, 20
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 21, 22, 23
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 24, 25, 26
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 27, 28, 29
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 30, 31, 32
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 33, 34, 35
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 36, 37, 38
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 39, 40, 41
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 42, 43, 44
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 45, 46, 47
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 48, 49, 50
+    ColorID.RED, ColorID.RED, ColorID.YEL // 51, 52, 53
+]
+
+export const FBSCSR = [ // Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
+    ColorID.WHI, ColorID.RED, ColorID.RED, // 0, 1, 2
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 3, 4, 5
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 6, 7, 8
+    ColorID.RED, ColorID.RED, ColorID.RED, // 9, 10 ,11
+    ColorID.RED, ColorID.RED, ColorID.RED, // 12, 13, 14
+    ColorID.RED, ColorID.RED, ColorID.RED, // 15, 16, 17
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 18, 19, 20
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 21, 22, 23
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 24, 25, 26
+    ColorID.PIN, ColorID.PIN, ColorID.WHI, // 27, 28, 29
+    ColorID.PIN, ColorID.PIN, ColorID.WHI, // 30, 31, 32
+    ColorID.PIN, ColorID.PIN, ColorID.WHI, // 33, 34, 35
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 36, 37, 38
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 39, 40, 41
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 42, 43, 44
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 45, 46, 47
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 48, 49, 50
+    ColorID.YEL, ColorID.PIN, ColorID.PIN  // 51, 52, 53
+]
+
+export const FBSCSY = [ // Create multiple arrays within this array or another 'FBSolvedColorStateBlue'
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 0, 1, 2
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 3, 4, 5
+    ColorID.WHI, ColorID.WHI, ColorID.WHI, // 6, 7, 8
+    ColorID.RED, ColorID.RED, ColorID.RED, // 9, 10 ,11
+    ColorID.PIN, ColorID.RED, ColorID.RED, // 12, 13, 14
+    ColorID.PIN, ColorID.RED, ColorID.RED, // 15, 16, 17
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 18, 19, 20
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 21, 22, 23
+    ColorID.GRE, ColorID.GRE, ColorID.GRE, // 24, 25, 26
+    ColorID.PIN, ColorID.PIN, ColorID.PIN, // 27, 28, 29
+    ColorID.PIN, ColorID.PIN, ColorID.RED, // 30, 31, 32
+    ColorID.PIN, ColorID.PIN, ColorID.RED, // 33, 34, 35
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 36, 37, 38
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 39, 40, 41
+    ColorID.BLU, ColorID.BLU, ColorID.BLU, // 42, 43, 44
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 45, 46, 47
+    ColorID.YEL, ColorID.YEL, ColorID.YEL, // 48, 49, 50
+    ColorID.WHI, ColorID.WHI, ColorID.WHI  // 51, 52, 53
+]
+
 export const Cross = [
     // [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6] ] // E10 E11 E12 C6 C7 |  blue first block
     // [0, 1, 2, 9, 12, 29, 32, 36, 37, 38, 39, 41] // blue cross   -> faces of blue first block
     // [19, 7, 5, 28, 3, 10, 37, 1]
-    [36, 37, 38, 39, 41], // Blue FB - White
-    [37, 38, 41, 43, 44], // Blue FB - Red (Orange)
-    [39, 41, 42, 43, 44], // Blue FB - Yellow
-    [36, 37, 39, 42, 43] // Blue FB  Pink (Red)
+
+    // [36, 37, 38, 39, 41], // Blue FB - White
+    // [37, 38, 41, 43, 44], // Blue FB - Red (Orange)
+    // [39, 41, 42, 43, 44], // Blue FB - Yellow
+    // [36, 37, 39, 42, 43] // Blue FB  Pink (Red)
+
     // [39, 31, 37, 1, 41, 12, 36, 2, 29, 38, 9, 0], // Blue FB - White
     // [37, 1, 43, 52, 41, 12, 38, 9, 0, 44, 15, 51], // Blue FB - Pink (Red)
     // [43, 52, 39, 32, 37, 1, 36, 2, 29, 42, 53, 35], // Blue FB - Red (Orange)
@@ -181,15 +246,11 @@ export const Cross = [
 
     // [7, 5, 3, 1] // White cross with random order and no match to center
       // [0, 1, 2, 4, 9, 12, 13, 22, 29, 31, 32, 36, 38, 39, 40, 41, 49 ] // blue cross   -> faces of blue first block
-    // [...Edges[0], ...Edges[4], ...Edges[7],  ...Edges[8] ], // E1 E5  E8  E9   |  yellow cross
-    // [...Edges[3], ...Edges[6], ...Edges[7],  ...Edges[11]], // E4 E7  E8  E12  |  red cross
-    // [...Edges[2], ...Edges[5], ...Edges[6],  ...Edges[10]], // E3 E6  E7  E11  |  white cross
-    // [...Edges[1], ...Edges[4], ...Edges[5],  ...Edges[9] ], // E2 E5  E6  E10  |  pink cross
-    // [...Edges[0], ...Edges[1], ...Edges[2],  ...Edges[3] ]  // E1 E2  E3  E4   |  green cross
-    // [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6]], // E9 E10 E11 E12  |  blue cross
-    // [...Edges[8], ...Edges[9], ...Edges[10], ...Corners[4], ...Corners[5]], // E9 E10 E11 E12  |  blue cross
-    // [...Edges[8], ...Edges[9], ...Edges[11], ...Corners[4], ...Corners[7]], // E9 E10 E11 E12  |  blue cross
-    // [...Edges[8], ...Edges[10], ...Edges[11], ...Corners[6], ...Corners[7]] // E9 E10 E11 E12  |  blue cross
+
+    [...Edges[9], ...Edges[10], ...Edges[11], ...Corners[5], ...Corners[6]], // E9 E10 E11 E12  |  blue cross
+    [...Edges[8], ...Edges[9], ...Edges[10], ...Corners[4], ...Corners[5]], // E9 E10 E11 E12  |  blue cross
+    [...Edges[8], ...Edges[9], ...Edges[11], ...Corners[4], ...Corners[7]], // E9 E10 E11 E12  |  blue cross
+    [...Edges[8], ...Edges[10], ...Edges[11], ...Corners[6], ...Corners[7]] // E9 E10 E11 E12  |  blue cross
 
 ]
 

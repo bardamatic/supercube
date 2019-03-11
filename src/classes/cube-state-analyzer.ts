@@ -1,4 +1,4 @@
-import { Cross, SolvedColorState, Colors, F2L, Corners, CornerColors, OLL, PLL } from '@/classes/cube-state-data'
+import { Cross, SolvedColorState, FBSCSO, FBSCSR, FBSCSY, Colors, F2L, Corners, CornerColors, OLL, PLL } from '@/classes/cube-state-data'
 
 export default class CubeStateAnalyzer {
     private colorStateArray: Uint8Array
@@ -11,7 +11,10 @@ export default class CubeStateAnalyzer {
         for (let i = 0; i < Cross.length; i++) {
             let match = true
             for (const index of Cross[i]) {
-                if (this.colorStateArray[index] !== SolvedColorState[index]) {
+                if ((this.colorStateArray[index] !== SolvedColorState[index]) &&
+                    (this.colorStateArray[index] !== FBSCSO[index]) &&
+                    (this.colorStateArray[index] !== FBSCSR[index]) &&
+                    (this.colorStateArray[index] !== FBSCSY[index]))  {
                     match = false
                     break
                 }
