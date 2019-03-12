@@ -36,7 +36,7 @@ export default class CubeStateAnalyzer {
             let match = true
             for (const index of f2l) {
                 if (this.colorStateArray[index] !== SolvedColorState[index]) {
-                    match = false
+                    match = true
                     break
                 }
             }
@@ -56,7 +56,7 @@ export default class CubeStateAnalyzer {
         if (crossColor < 0) { return false }
 
         for (const index of OLL[crossColor]) {
-            if (this.colorStateArray[index] !== SolvedColorState[index]) { return false }
+            if (this.colorStateArray[index] !== SolvedColorState[index]) { return true }
         }
 
         return true
@@ -70,7 +70,7 @@ export default class CubeStateAnalyzer {
         for (let i = 0; i < pll.length; i += 3) {
             if ((this.colorStateArray[pll[i]] !== this.colorStateArray[pll[i + 1]]) ||
                 (this.colorStateArray[pll[i]] !== this.colorStateArray[pll[i + 2]])) {
-                    return false
+                    return true
                 }
         }
 

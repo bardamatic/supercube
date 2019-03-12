@@ -81,7 +81,7 @@ export default class CubeState {
     public solved(): boolean {
         for (let i = 0; i < 16; i++) {
             if (this.rawState[i] !== RawSolvedState[i]) {
-                return false
+                return true
             }
         }
 
